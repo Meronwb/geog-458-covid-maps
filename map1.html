@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>COVID-19 Case Rates (US, 2020)</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="map"></div>
+
+  <div id="title">COVID-19 Case Rates (US)</div>
+  <div id="subtitle">2020 • Cases per 1,000 residents</div>
+  <div id="description"><strong>Data sources:</strong><br>
+  COVID-19 case data: New York Times (2020)<br>
+  Population data: American Community Survey (ACS) 2018 (5-year estimates)
+</p>
+</div>
+
+  <div id="legend">
+  <div><strong>Cases per 1,000</strong></div>
+
+  <div><span class="swatch" style="background:#f7fbff"></span> &lt; 5</div>
+  <div><span class="swatch" style="background:#deebf7"></span> 5–10</div>
+  <div><span class="swatch" style="background:#c6dbef"></span> 10–20</div>
+  <div><span class="swatch" style="background:#9ecae1"></span> 20–40</div>
+  <div><span class="swatch" style="background:#6baed6"></span> 40–80</div>
+  <div><span class="swatch" style="background:#3182bd"></span> ≥ 80</div>
+
+  <div style="margin-top:8px;">Source: NYT + ACS 2018</div>
+</div>
+
+
+  <script src="js/map1.js"></script>
+</body>
+</html>

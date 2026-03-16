@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>COVID-19 Case counts (US, 2020)</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="map"></div>
+
+  <div id="title">COVID-19 Total Cases (US)</div>
+  <div id="subtitle">2020 • Total reported cases</div>
+  <div id="description">
+  <strong>Data sources:</strong><br>
+  COVID-19 case data: New York Times (2020)<br>
+  Population data: American Community Survey (ACS) 2018
+</p>
+</div>
+
+  <div id="legend">
+  <strong>Legend (circle size = cases)</strong><br>
+  <span class="swatch" style="border-radius:50%; background: rgba(215,48,39,0.6); width:8px; height:8px;"></span>
+  Small&nbsp;&nbsp;
+  <span class="swatch" style="border-radius:50%; background: rgba(215,48,39,0.6); width:14px; height:14px;"></span>
+  Medium&nbsp;&nbsp;
+  <span class="swatch" style="border-radius:50%; background: rgba(215,48,39,0.6); width:20px; height:20px;"></span>
+  Large
+
+  <div style="margin-top:8px;">Source: NYT (cases)</div>
+</div>
+
+  <script src="js/map2.js"></script>
+</body>
+</html>
