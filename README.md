@@ -1,7 +1,7 @@
 # COVID-19 Maps (US)
 
 ## Project Overview
-This project visualizes COVID-19 data across the United States using two thematic maps. The goal is to compare COVID-19 case rates and total case counts to better understand spatial patterns across counties.
+This is a study about how COVID-19 was distributed geographically throughout the U.S. during 2020. The two maps were created so you could look at it from different perspectives. A choropleth map was used to compare (on a scale) the number of cases per thousand residents within each county. A proportional symbol map was used to compare which counties had the most total cases. Both maps allowed users to click on counties and see more detail about that county. I learned many new skills while creating these maps including: how to work with GeoJSON data, how to use Mapbox GL JS for web mapping, and how to create effective visualization techniques to convey complex spatial relationships effectively.
 
 ## Live Maps
 Map 1 (Choropleth – Case Rates):  
