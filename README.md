@@ -10,8 +10,15 @@ https://meronwb.github.io/geog-458-covid-maps/map1.html
 Map 2 (Proportional Symbols – Total Cases):  
 https://meronwb.github.io/geog-458-covid-maps/map2.html  
 
-## Map Descriptions
+## Map Descriptions and screenshots
+### Map 1: COVID-19 Case Rates
+![Map 1](img/map1.png)
+
 - **Map 1** shows COVID-19 case rates per 1,000 residents using a choropleth map.
+  
+### Map 2: COVID-19 Total Cases
+![Map 2](img/map2.png)
+
 - **Map 2** shows total COVID-19 cases using proportional circle symbols.
  
 ## Tools & Libraries
